@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Staren Soba — software engineering student and builder.">
+  <meta name="theme-color" content="#f2ede2">
+  <title>Staren — Things in Progress</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="site-noise" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Staren home">
+      <span class="brand-mark">S</span>
+      <span>STAREN</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#lab">Lab</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-right"><span class="nav-index">00 / 06</span><span class="nav-status"><i></i> BUILDING</span></div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-meta mono">
+        <span>SOFTWARE / WEB / IDEAS</span>
+        <span>BASED IN BUEA · CAMEROON</span>
+      </div>
+
+      <div class="hero-orb" aria-hidden="true"></div>
+      <div class="hero-ring" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">STAREN SOBA <span>↗</span></p>
+        <h1>
+          I make<br>
+          <em>things.</em>
+        </h1>
+        <p class="hero-description">
+          I study software engineering and spend a lot of my time turning
+          ideas into working projects. Some stay small. Some keep growing.
+        </p>
+        <div class="hero-actions"><a class="text-link" href="#work">See what I've been making <span>↘</span></a><a class="quiet-link" href="#contact">Get in touch <span>↗</span></a></div>
+      </div>
+
+      <div class="hero-portrait">
+        <div class="portrait-frame">
+          <img src="assets/images/staren-01.png" alt="Staren standing in a studio portrait" fetchpriority="high">
+          <span class="image-label mono">01 / STAREN</span>
+        </div>
+        <span class="portrait-caption mono">A PERSON, SOME IDEAS<br>AND A LOT TO LEARN.</span>
+      </div>
+
+      <div class="hero-bottom mono">
+        <span>01</span>
+        <span>SCROLL TO EXPLORE</span>
+        <span>↓</span>
+      </div>
+      <div class="hero-stamp mono" aria-hidden="true">MADE BETWEEN<br>IDEAS &amp; CODE</div>
+    </section>
+
+    <section class="statement section">
+      <div class="section-label mono">01 — THE SHORT VERSION</div>
+      <span class="section-index mono">ST / 01</span>
+      <div class="statement-content">
+        <p class="statement-large">
+          I learn best when there is something <span>real</span> to build.
+        </p>
+        <p class="statement-small">
+          So most of my learning ends up becoming a project. That usually means
+          starting with a rough idea, figuring out what I don't know, and
+          working through it until the thing makes sense.
+        </p>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="section-head">
+        <div>
+          <span class="section-label mono">02 — SELECTED WORK</span>
+          <h2>Things I've<br><em>been building.</em></h2>
+        </div>
+        <p class="section-note">A few projects from the process.<br>Not everything here is finished.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project project-pikup" data-project="Pikup">
+          <div class="project-number mono">01</div>
+          <div class="project-visual">
+            <div class="visual-grid"></div>
+            <div class="visual-word">PIKUP</div>
+            <div class="visual-orbit"></div>
+            <span class="visual-tag mono">DELIVERY / PRODUCT</span>
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-kicker mono">A BIGGER IDEA</span>
+              <h3>Pikup</h3>
+              <p>A local delivery platform concept connecting customers, merchants and riders.</p><div class="project-tags"><span>PRODUCT</span><span>WEB</span><span>SYSTEMS</span></div>
+            </div>
+            <div class="project-footer">
+              <span class="mono">BUILDING</span>
+              <button class="project-open" type="button">View notes <span>↗</span></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project project-auto" data-project="Auto Elite">
+          <div class="project-number mono">02</div>
+          <div class="project-visual">
+            <div class="auto-frame">
+              <span>AUTO</span>
+              <strong>ELITE</strong>
+              <small>VEHICLES / RENTALS</small>
+            </div>
+            <span class="visual-tag mono">CLIENT / WEB</span>
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-kicker mono">FIRST REAL CLIENT</span>
+              <h3>Auto Elite</h3>
+              <p>A vehicle dealership and rental website built around making the inventory easy to browse.</p><div class="project-tags"><span>CLIENT</span><span>WEB</span><span>UI</span></div>
+            </div>
+            <div class="project-footer">
+              <span class="mono">CLIENT PROJECT</span>
+              <button class="project-open" type="button">View notes <span>↗</span></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="project project-market" data-project="Student Marketplace">
+          <div class="project-number mono">03</div>
+          <div class="project-visual">
+            <div class="market-card">
+              <span>STUDENT</span>
+              <span>MARKETPLACE</span>
+              <i></i>
+            </div>
+            <span class="visual-tag mono">WEB / COMMUNITY</span>
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-kicker mono">ONE OF THE EARLIER ONES</span>
+              <h3>Student Marketplace</h3>
+              <p>A marketplace concept built around the everyday buying and selling needs of students.</p><div class="project-tags"><span>PERSONAL</span><span>WEB</span><span>UX</span></div>
+            </div>
+            <div class="project-footer">
+              <span class="mono">PERSONAL PROJECT</span>
+              <button class="project-open" type="button">View notes <span>↗</span></button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="github-strip section" id="github">
+      <div class="github-strip-head">
+        <div>
+          <span class="section-label mono">A WINDOW INTO THE WORK</span>
+          <h2>Code lives<br><em>elsewhere.</em></h2>
+        </div>
+        <a class="outline-link" href="https://github.com/staren02" target="_blank" rel="noopener">Open GitHub ↗</a>
+      </div>
+      <div class="github-board">
+        <div class="github-intro">
+          <span class="mono">PUBLIC ACTIVITY</span>
+          <p>This area can pull public repositories from GitHub when the portfolio is online. If the network is unavailable, it simply keeps the curated projects above.</p>
+        </div>
+        <div class="repo-feed" id="repo-feed" aria-live="polite">
+          <div class="repo-loading mono">CHECKING FOR PUBLIC REPOSITORIES…</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="photo-break section">
+      <div class="photo-copy">
+        <span class="section-label mono">A SMALL PAUSE</span>
+        <p>There is a person behind the projects.</p>
+      </div>
+      <figure class="secondary-photo">
+        <img src="assets/images/staren-02.png" alt="Staren in a full-body studio portrait" loading="lazy">
+        <figcaption class="mono">02 / OFF THE SCREEN</figcaption>
+      </figure>
+      <div class="photo-mark mono">LOOK<br>AGAIN</div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label mono">03 — ABOUT</div>
+      <div class="about-layout">
+        <div class="about-title">
+          <h2>Still<br><em>figuring it out.</em></h2>
+          <div class="about-photo">
+            <img src="assets/images/staren-03.png" alt="Staren smiling in a casual portrait" loading="lazy">
+          </div>
+        </div>
+        <div class="about-copy">
+          <p class="about-lead">
+            I'm Staren. I study software engineering and like making things
+            that move an idea from “this could work” to “let's see.”
+          </p>
+          <p>
+            The web is where I started, and it's still where a lot of my work
+            happens. Along the way I've become interested in products, software
+            systems and, eventually, game development.
+          </p>
+          <p>
+            I don't have everything figured out yet. I'm comfortable with that.
+            I'd rather keep learning through projects than wait until I know
+            everything before I start.
+          </p>
+          <div class="about-facts">
+            <div><span class="mono">WORKING AROUND</span><strong>Web / Software</strong></div>
+            <div><span class="mono">CURRENT MODE</span><strong>Learning + Building</strong></div>
+            <div><span class="mono">LONGER DIRECTION</span><strong>Software × Games</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab section" id="lab">
+      <div class="section-head lab-head">
+        <div>
+          <span class="section-label mono">04 — THE LAB</span>
+          <h2>Things I'm<br><em>curious about.</em></h2>
+        </div>
+        <p class="section-note">Not a list of achievements.<br>More like a map of what's next.</p>
+      </div>
+
+      <div class="lab-board">
+<div class="lab-rail" aria-label="Things Staren is curious about">
+  <article class="lab-note note-a" tabindex="0">
+    <span class="mono">01 / NOW</span>
+    <strong>JavaScript</strong>
+    <p>Getting more comfortable with the DOM, interaction and the parts that happen after a click.</p>
+  </article>
+  <article class="lab-note note-b" tabindex="0">
+    <span class="mono">02 / 3D</span>
+    <strong>Blender / 3D</strong>
+    <p>Exploring 3D, visual storytelling and the process of turning ideas into scenes.</p>
+  </article>
+  <article class="lab-note note-c" tabindex="0">
+    <span class="mono">03 / PASSION</span>
+    <strong>Game development</strong>
+    <p>I have a real interest in game development and the worlds, mechanics and experiences behind games.</p>
+  </article>
+  <article class="lab-note note-d" tabindex="0">
+    <span class="mono">04 / ALWAYS</span>
+    <strong>Better ideas</strong>
+    <p>Trying to make things simpler without making them boring.</p>
+  </article>
+</div>
+<div class="lab-line" aria-hidden="true"></div>
+<div class="lab-circle" aria-hidden="true"></div>
+</div>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="section-head process-head">
+        <div>
+          <span class="section-label mono">05 — HOW I WORK</span>
+          <h2>Start simple.<br><em>Keep going.</em></h2>
+        </div>
+        <p class="section-note">No big formula.<br>Just a way of working that makes sense to me.</p>
+      </div>
+      <div class="process-list">
+        <div class="process-row"><span class="mono">01</span><strong>Find the idea</strong><p>Figure out what the thing is supposed to do before getting lost in how it should look.</p></div>
+        <div class="process-row"><span class="mono">02</span><strong>Build the first version</strong><p>Get something working, even when it is rough. A working problem is easier to understand.</p></div>
+        <div class="process-row"><span class="mono">03</span><strong>Notice what is wrong</strong><p>Then fix the parts that actually matter instead of polishing everything at once.</p></div>
+        <div class="process-row"><span class="mono">04</span><strong>Learn what I needed</strong><p>The gaps usually become the next thing I study. That is how the work keeps moving.</p></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-top">
+        <span class="section-label mono">06 — CONTACT</span>
+        <span class="mono">OPEN TO GOOD CONVERSATIONS</span>
+      </div>
+      <div class="contact-main">
+        <h2>Have something<br><em>worth making?</em></h2>
+        <p class="contact-note">A project, a role, an idea, or just a useful conversation.</p>
+        
+<div class="contact-links">
+  <a class="contact-link" href="mailto:staren906@gmail.com">staren906@gmail.com <span>↗</span></a>
+  <a class="contact-link" href="tel:+237674930954">+237 674 930 954 <span>↗</span></a>
+</div>
+<div class="social-links">
+  <a href="https://www.linkedin.com/in/staren-soba" target="_blank" rel="noopener">LinkedIn ↗</a>
+  <a href="https://github.com/staren02" target="_blank" rel="noopener">GitHub ↗</a>
+  <a href="https://www.tiktok.com/@staren02" target="_blank" rel="noopener">TikTok ↗</a>
+  <a href="#facebook-profile" id="facebook-link">Facebook ↗</a>
+</div>
+
+      </div>
+      <div class="contact-bottom">
+        <span>SOFTWARE / WEB / CREATIVE</span>
+        <div class="contact-socials">
+          <a href="https://github.com/staren02" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/staren-soba" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <span>© 2026 STAREN SOBA</span>
+      </div>
+    </section>
+  </main>
+
+  <div class="project-modal" aria-hidden="true">
+    <button class="modal-close" type="button" aria-label="Close project">×</button>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-topline">
+        <span class="mono modal-index">PROJECT NOTE</span>
+        <span class="mono" id="modal-status">BUILDING</span>
+      </div>
+      <h2 id="modal-title"></h2>
+      <p id="modal-description"></p>
+      <div class="modal-details">
+        <div><span class="mono">TYPE</span><strong id="modal-type"></strong></div>
+        <div><span class="mono">ROLE</span><strong id="modal-role"></strong></div>
+        <div><span class="mono">FOCUS</span><strong id="modal-focus"></strong></div>
+      </div>
+      <div class="modal-actions">
+        <a id="modal-github" href="https://github.com/staren02" target="_blank" rel="noopener">Open source ↗</a>
+        <button id="modal-copy" type="button">Copy project link</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+<div class="music-player" id="musicPlayer" aria-label="Portfolio music player">
+  <button class="music-main" id="musicPlay" type="button" aria-label="Play portfolio music" aria-pressed="false">
+    <span class="music-eq" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="music-now"><b id="musicTitle">Select a track</b><small id="musicStatus">OFF</small></span>
+  </button>
+  <button class="music-control" id="musicPrev" type="button" aria-label="Previous track">←</button>
+  <button class="music-control" id="musicNext" type="button" aria-label="Next track">→</button>
+  <button class="music-control" id="musicList" type="button" aria-label="Show music tracks" aria-expanded="false">•••</button>
+  <div class="music-menu" id="musicMenu" hidden></div>
+</div>
+</body>
+</html>
